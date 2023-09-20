@@ -75,7 +75,7 @@
   display: block;
   text-align: center;
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   transition: all 0.24s;
 }
 @media (max-width: 820px) {
