@@ -1698,6 +1698,41 @@ pre code {
   padding: 0 10px 2px 7px;
 }
 
+.tag-link {
+  position: relative;
+  padding: 8px 20px 8px 36px;
+  margin-right: 10px;
+  font-size: 20px;
+  border-radius: 3px;
+  vertical-align: middle;
+  line-height: 1.75em;
+  color: #414141;
+  background-color: #EBECEE;
+}
+@media (prefers-color-scheme: dark) {
+  .tag-link {
+    color: #90acc9;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.tag-link:hover {
+  background-color: #414141;
+  color: #d4dfea;
+}
+@media (prefers-color-scheme: dark) {
+  .tag-link:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.tag-link::before {
+  position: absolute;
+  top: 2px;
+  left: 14px;
+  content: "#";
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
   outline: inherit;
