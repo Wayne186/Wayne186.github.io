@@ -1,0 +1,14 @@
+node_modules/
+public/
+.deploy_git/
+db.json
+*.log
+.DS_Store
+.idea/
+.vscode/
+.tools/
+.npm-cache/
+
+# Local agent tooling (not part of the site)
+.dsh/
+AGENTS.md
