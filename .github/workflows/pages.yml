@@ -10,6 +10,11 @@ permissions:
   pages: write
   id-token: write
 
+# Hexo builds date-based permalinks from the system timezone, not from
+# `timezone` in _config.yml. Pin it so CI matches local output.
+env:
+  TZ: Asia/Shanghai
+
 concurrency:
   group: pages
   cancel-in-progress: false
