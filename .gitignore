@@ -12,3 +12,6 @@ db.json
 # Local agent tooling (not part of the site)
 .dsh/
 AGENTS.md
+
+# Drafts stay local until published
+source/_drafts/
