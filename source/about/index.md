@@ -5,8 +5,7 @@ type: about
 comments: false
 ---
 
-一个 Unity 独立开发者的记事本。
-
-写点开发过程里绕过的坑、踩过的雷，偶尔也有和代码无关的杂谈。
+这里都是碎碎念，想看干货还是去问 AI 吧。当然有 job 可以找我的，多谢老板 orz。
 
 - GitHub: [Wayne186](https://github.com/Wayne186)
+- Email: [wayne186645@gmail.com](mailto:wayne186645@gmail.com)
