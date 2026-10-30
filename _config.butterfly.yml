@@ -430,7 +430,7 @@ copy:
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -1062,7 +1062,8 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    # - <script src="xxxx"></script>
+    # Live2D 看板娘，加载逻辑见 source/js/live2d-init.js
+    - <script type="module" src="/js/live2d-init.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
