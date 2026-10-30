@@ -1,0 +1,11 @@
+/* Live2D widget overrides.
+   The widget ships `#waifu-tool svg { fill: #7b8c9d }`, which is nearly
+   invisible on Butterfly's dark theme. Only the toolbar is touched. */
+
+[data-theme='dark'] #waifu-tool svg {
+  fill: #c9d1d9;
+}
+
+[data-theme='dark'] #waifu-tool svg:hover {
+  fill: #4fc3f7;
+}
