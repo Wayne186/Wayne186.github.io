@@ -48,6 +48,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/Wayne186 || Github || '#24292e'
+  fas fa-envelope: mailto:wayne186645@gmail.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
