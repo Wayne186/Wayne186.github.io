@@ -13,5 +13,8 @@ db.json
 .dsh/
 AGENTS.md
 
+# Personal notes, never published
+NOTES.local.md
+
 # Drafts stay local until published
 source/_drafts/
