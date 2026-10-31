@@ -72,7 +72,9 @@ meta_generator: true
 # Date / Time format
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-updated_option: 'mtime'
+# 'mtime' resolves to the checkout time in CI, so every deploy would rewrite
+# the "updated" date of every post. Use 'date' and set `updated:` by hand.
+updated_option: 'date'
 
 # Pagination
 per_page: 10
