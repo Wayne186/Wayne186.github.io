@@ -166,7 +166,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - 记录开发，也记录生活
+    - 技术干货都是 AI 写的，废话和碎碎念都是我写的
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right

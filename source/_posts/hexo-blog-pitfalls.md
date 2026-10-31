@@ -2,7 +2,7 @@
 title: 搭博客踩的坑，解决办法和代价
 date: 2026-10-30 21:00:00
 updated: 2026-10-31 16:30:00
-tags: [Hexo, Butterfly]
+tags: [Hexo]
 categories: [技术]
 ---
 
